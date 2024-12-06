@@ -8,9 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>
+      <body className={`${lusitana.className} antialiased`}>
         {children}
-        <footer className={`${lusitana.className}py-10 flex justify-center items-center`}>
+        <footer className={`py-10 flex justify-center items-center`}>
           Aprendiendo como se usa NextJS
         </footer>
       </body>
