@@ -10,9 +10,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lusitana.className} antialiased`}>
         {children}
-        <footer className={`py-10 flex justify-center items-center`}>
+        {/* <footer className={`py-10 flex justify-center items-center`}>
           Aprendiendo como se usa NextJS
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
