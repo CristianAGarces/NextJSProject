@@ -1,4 +1,9 @@
 import SideNav from '@/app/dashboard/sidenav';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export const experimental_ppr = true;
  
